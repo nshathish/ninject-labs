@@ -336,5 +336,7 @@ ASALocalRun/
 # should be stored in the .pubxml.user file.
 *.pubxml.user
 
+### 
+
 
 # End of https://www.gitignore.io/api/visualstudio
