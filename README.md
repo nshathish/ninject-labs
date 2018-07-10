@@ -4,7 +4,7 @@
 * Ninject.Web.Common.WebHost
 * Ninject.Web.Mvc5
 
-Most of the magic is done in _ NinjectWebCommon.cs _ file. In that class you can add your bindings like the following:
+Most of the magic is done in _NinjectWebCommon.cs_ file. In that class you can add your bindings like the following:
 ```
 private static void RegisterServices(IKernel kernel)
 {
@@ -33,6 +33,6 @@ public class RepositoryModule: NinjectModule
 }
 ```
 
-__ you can define as many module classes as it fits for the project __
+__you can define as many module classes as it fits for the project__
 
 
