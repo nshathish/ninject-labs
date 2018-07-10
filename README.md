@@ -44,7 +44,7 @@ __you can define as many module classes as it fits for the project__
 
 Again, _NinjectWebCommon.cs_ handles all the plumbing for you, and bindings could be handled individually in the RegisterServices method in separate NinjectModule derived classes.
 
-__It is very important that the Ninject.Web.WebApi.WebHost package is installed in your Web Api project, otherwise you have to write your own IDependencyResolver implementation
+__It is very important that the Ninject.Web.WebApi.WebHost package is installed in your Web Api project, otherwise you have to write your own IDependencyResolver implementation__
 
 ## For a project that has both MVC and Web Api2, you need the following packages
 * Ninject
