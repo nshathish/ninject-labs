@@ -35,4 +35,26 @@ public class RepositoryModule: NinjectModule
 
 __you can define as many module classes as it fits for the project__
 
+## For Asp.Net WebApi 2, these are the nuget packages you need:
+* Ninject
+* Ninject.Web.Common
+* Ninject.Web.Common.WebHost
+* Ninject.Web.WebApi
+* Ninject.Web.WebApi.WebHost
+
+Again, _NinjectWebCommon.cs_ handles all the plumbing for you, and bindings could be handled individually in the RegisterServices method in separate NinjectModule derived classes.
+
+__It is very important that the Ninject.Web.WebApi.WebHost package is installed in your Web Api project, otherwise you have to write your own IDependencyResolver implementation
+
+## For a project that has both MVC and Web Api2, you need the following packages
+* Ninject
+* Ninject.Web.Common
+* Ninject.Web.Common.WebHost
+* Ninject.Web.WebApi
+* Ninject.Web.WebApi.WebHost
+* Ninject.Web.Mvc5
+
+For the Web Api, just make sure _Ninject.Web.WebApi.WebHost_ is installed
+
+
 
